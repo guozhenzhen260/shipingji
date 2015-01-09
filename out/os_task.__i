@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\NXP\LPC17xx" -DDEBUG -o ".\out\os_task.o" --omf_browse ".\out\os_task.crf" --depend ".\out\os_task.d" "ZY_CODE\uCOS-II\OS_TASK.C"

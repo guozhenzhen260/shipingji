@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\NXP\LPC17xx" -DDEBUG -o ".\out\lpc1700pincfg.o" --omf_browse ".\out\lpc1700pincfg.crf" --depend ".\out\lpc1700pincfg.d" "ZY_CODE\Startup\LPC1700PinCfg.c"

@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\NXP\LPC17xx" -DDEBUG -o ".\out\os_core.o" --omf_browse ".\out\os_core.crf" --depend ".\out\os_core.d" "ZY_CODE\uCOS-II\OS_CORE.C"

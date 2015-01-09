@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\NXP\LPC17xx" -DDEBUG -o ".\out\zy_if.o" --omf_browse ".\out\zy_if.crf" --depend ".\out\zy_if.d" "ZY_CODE\zy_if\zy_if.c"

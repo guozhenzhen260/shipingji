@@ -1,0 +1,9 @@
+.\out\lpc17xx_mcpwm.o: driver\lpc17xx_mcpwm.c
+.\out\lpc17xx_mcpwm.o: driver\lpc17xx_mcpwm.h
+.\out\lpc17xx_mcpwm.o: driver\LPC17xx.h
+.\out\lpc17xx_mcpwm.o: driver\core_cm3.h
+.\out\lpc17xx_mcpwm.o: C:\Keil\ARM\RV31\INC\stdint.h
+.\out\lpc17xx_mcpwm.o: driver\system_LPC17xx.h
+.\out\lpc17xx_mcpwm.o: driver\lpc_types.h
+.\out\lpc17xx_mcpwm.o: driver\lpc17xx_clkpwr.h
+.\out\lpc17xx_mcpwm.o: driver\lpc17xx_libcfg_default.h

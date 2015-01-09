@@ -1,0 +1,161 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Administrator\Desktop\shipingji\test\VMC_LPC1768\Cortex-M3_Execute_for_lpc1700.uvproj
+Project File Date:  12/21/2012
+
+<h2>Output:</h2>
+Build target 'DebugInFlash'
+compiling drv.c...
+USER_CODE\drv.c(178): warning:  #223-D: function "Trace" declared implicitly
+USER_CODE\drv.c:                                Trace("\r\n RETRYGOOD");
+USER_CODE\drv.c:                                ^
+USER_CODE\drv.c(190): warning:  #223-D: function "Trace" declared implicitly
+USER_CODE\drv.c:                        Trace("\r\n Dispense:len=%d,evb=%#x,%#x,%#x,%#x,%#x,%#x,%#x,%#x",lenth,evbbuf[0],evbbuf[1],evbbuf[2],evbbuf[3],evbbuf[4],evbbuf[5],evbbuf[6],evbbuf[7]);
+USER_CODE\drv.c:                        ^
+USER_CODE\drv.c(615): warning:  #223-D: function "isGOCErrorSevice" declared implicitly
+USER_CODE\drv.c:                                 if(isGOCErrorSevice() && SYSPara.GOCErrorSevice == 1)
+USER_CODE\drv.c:                                    ^
+USER_CODE\drv.c(687): warning:  #223-D: function "isGOCErrorSevice" declared implicitly
+USER_CODE\drv.c:                                   if(isGOCErrorSevice() && SYSPara.GOCErrorSevice == 1)
+USER_CODE\drv.c:                                      ^
+USER_CODE\drv.c(834): warning:  #223-D: function "Trace" declared implicitly
+USER_CODE\drv.c:                         Trace("\r\n ***outGood=%#x",pStatus);
+USER_CODE\drv.c:                         ^
+USER_CODE\drv.c(859): warning:  #223-D: function "isDontReduceNum" declared implicitly
+USER_CODE\drv.c:                                                                 if(!isDontReduceNum())
+USER_CODE\drv.c:                                                                     ^
+USER_CODE\drv.c(865): warning:  #223-D: function "isDontReduceNum" declared implicitly
+USER_CODE\drv.c:                                                        if(!isDontReduceNum())
+USER_CODE\drv.c:                                                            ^
+USER_CODE\drv.c(919): warning:  #223-D: function "isDontReduceNum" declared implicitly
+USER_CODE\drv.c:                                                                                 if(!isDontReduceNum())
+USER_CODE\drv.c:                                                                                     ^
+USER_CODE\drv.c(925): warning:  #223-D: function "isDontReduceNum" declared implicitly
+USER_CODE\drv.c:                                                                        if(!isDontReduceNum())
+USER_CODE\drv.c:                                                                            ^
+USER_CODE\drv.c(1005): warning:  #223-D: function "isDontReduceNum" declared implicitly
+USER_CODE\drv.c:                                                                 if(!isDontReduceNum())
+USER_CODE\drv.c:                                                                     ^
+USER_CODE\drv.c(1011): warning:  #223-D: function "isDontReduceNum" declared implicitly
+USER_CODE\drv.c:                                                        if(!isDontReduceNum())
+USER_CODE\drv.c:                                                            ^
+USER_CODE\drv.c(1087): warning:  #9-D: nested comment is not allowed
+USER_CODE\drv.c:                                                        /************************************************************************* / 
+USER_CODE\drv.c:                                                        ^
+USER_CODE\drv.c(1098): warning:  #9-D: nested comment is not allowed
+USER_CODE\drv.c:                                                        /************************************************************************* / 
+USER_CODE\drv.c:                                                        ^
+USER_CODE\drv.c(1100): warning:  #9-D: nested comment is not allowed
+USER_CODE\drv.c:                                                        /************************************************************************* /
+USER_CODE\drv.c:                                                        ^
+USER_CODE\drv.c(1111): warning:  #9-D: nested comment is not allowed
+USER_CODE\drv.c:                                                        /************************************************************************* /
+USER_CODE\drv.c:                                                        ^
+USER_CODE\drv.c: USER_CODE\drv.c: 15 warnings, 0 errors
+linking...
+Program Size: Code=162710 RO-data=127650 RW-data=9972 ZI-data=22652  
+FromELF: creating hex file...
+".\out\Cortex-M3-vx.xx.axf" - 0 Error(s), 15 Warning(s).
+Build target 'DebugInFlash'
+compiling main.c...
+USER_CODE\Acdc.h(12): warning:  #1295-D: Deprecated declaration ACDCModuleTest - give arg types
+USER_CODE\Acdc.h:   extern uint8_t ACDCModuleTest();
+USER_CODE\Acdc.h:                  ^
+USER_CODE\Acdc.h(14): warning:  #1-D: last line of file ends without a newline
+USER_CODE\Acdc.h:   #endif
+USER_CODE\Acdc.h:         ^
+USER_CODE\main.c(212): warning:  #177-D: variable "size" was declared but never referenced
+USER_CODE\main.c:     int size = 1;
+USER_CODE\main.c:         ^
+USER_CODE\main.c(270): warning:  #223-D: function "isDontReduceNum" declared implicitly
+USER_CODE\main.c:                       if((isDontReduceNum())||((Channels[j][i].ChannelStat& 0x03)==CHANNELOK)||((Channels[j][i].ChannelStat& 0x03)==CHANNELOVER))
+USER_CODE\main.c:                           ^
+USER_CODE\main.c(290): warning:  #177-D: variable "i" was declared but never referenced
+USER_CODE\main.c:       uint16_t i,j;
+USER_CODE\main.c:                ^
+USER_CODE\main.c(290): warning:  #177-D: variable "j" was declared but never referenced
+USER_CODE\main.c:       uint16_t i,j;
+USER_CODE\main.c:                  ^
+USER_CODE\main.c(595): warning:  #223-D: function "DispVersionText" declared implicitly
+USER_CODE\main.c:       DispVersionText();//120704 by cq DispVersion
+USER_CODE\main.c:       ^
+USER_CODE\main.c(607): warning:  #223-D: function "UpdateSelectionLed" declared implicitly
+USER_CODE\main.c:               UpdateSelectionLed();//更新灯的显示
+USER_CODE\main.c:               ^
+USER_CODE\main.c(794): warning:  #223-D: function "Vmc_HandleReaderMsg" declared implicitly
+USER_CODE\main.c:                                                       cSta = Vmc_HandleReaderMsg(cMsg);
+USER_CODE\main.c:                                                              ^
+USER_CODE\main.c(915): warning:  #223-D: function "UpdateSelectionLed" declared implicitly
+USER_CODE\main.c:                                               UpdateSelectionLed();//更新灯的显示
+USER_CODE\main.c:                                               ^
+USER_CODE\main.c(1149): warning:  #223-D: function "Reader_GetFundsMultiplyUnit" declared implicitly
+USER_CODE\main.c:                                               && ((SYSPara.ReaderEnable==0)||(Reader_GetFundsMultiplyUnit()==0))) 
+USER_CODE\main.c:                                                                               ^
+USER_CODE\main.c(1263): warning:  #223-D: function "Reader_GetFundsMultiplyUnit" declared implicitly
+USER_CODE\main.c:                                               && ((SYSPara.ReaderEnable==0)||(Reader_GetFundsMultiplyUnit()==0)))
+USER_CODE\main.c:                                                                               ^
+USER_CODE\main.c(1279): warning:  #223-D: function "UpdateSelectionLed" declared implicitly
+USER_CODE\main.c:                                               UpdateSelectionLed();//更新灯的显示
+USER_CODE\main.c:                                               ^
+USER_CODE\main.c(1283): warning:  #223-D: function "Vmc_PostToReader" declared implicitly
+USER_CODE\main.c:                                               Vmc_PostToReader(VTR_READER_DISABLE);
+USER_CODE\main.c:                                               ^
+USER_CODE\main.c(1364): warning:  #223-D: function "Reader_SetItemValue" declared implicitly
+USER_CODE\main.c:                                                                       Reader_SetItemValue(Channels[ChannelX][ChannelY].GoodsPrice);
+USER_CODE\main.c:                                                                       ^
+USER_CODE\main.c(1368): warning:  #223-D: function "Reader_SetItemValue" declared implicitly
+USER_CODE\main.c:                                                                       Reader_SetItemValue(0);
+USER_CODE\main.c:                                                                       ^
+USER_CODE\main.c(1370): warning:  #223-D: function "Vmc_PostToReader" declared implicitly
+USER_CODE\main.c:                                                               Vmc_PostToReader(VTR_VEND_REQUEST); 
+USER_CODE\main.c:                                                               ^
+USER_CODE\main.c(1372): warning:  #223-D: function "Vmc_PendFromReader" declared implicitly
+USER_CODE\main.c:                                                               Vmc_PendFromReader(&SaleStat,MVC_SALE,OS_TICKS_PER_SEC * 10);//120914 by cq Cashless
+USER_CODE\main.c:                                                               ^
+USER_CODE\main.c(1456): warning:  #223-D: function "UpdateSelectionLed" declared implicitly
+USER_CODE\main.c:                                               UpdateSelectionLed();//更新灯的显示
+USER_CODE\main.c:                                               ^
+USER_CODE\main.c(1684): warning:  #223-D: function "Vmc_PostToReader" declared implicitly
+USER_CODE\main.c:                                               Vmc_PostToReader(VTR_READER_ENABLE);
+USER_CODE\main.c:                                               ^
+USER_CODE\main.c(513): warning:  #550-D: variable "cCashlessKeyInputFlag" was set but never used
+USER_CODE\main.c:       uint8_t     state,cMsg,cCashlessKeyInputFlag = 0;
+USER_CODE\main.c:                              ^
+USER_CODE\main.c(518): warning:  #177-D: variable "nowTime" was declared but never referenced
+USER_CODE\main.c:       uint16_t        nowTime,beginTime,endTime;
+USER_CODE\main.c:                       ^
+USER_CODE\main.c(518): warning:  #177-D: variable "beginTime" was declared but never referenced
+USER_CODE\main.c:       uint16_t        nowTime,beginTime,endTime;
+USER_CODE\main.c:                               ^
+USER_CODE\main.c(518): warning:  #177-D: variable "endTime" was declared but never referenced
+USER_CODE\main.c:       uint16_t        nowTime,beginTime,endTime;
+USER_CODE\main.c:                                         ^
+USER_CODE\main.c(1803): warning:  #223-D: function "SelectKey_InitProc" declared implicitly
+USER_CODE\main.c:               SelectKey_InitProc();//120816 by cq SelectKey
+USER_CODE\main.c:               ^
+USER_CODE\main.c(1807): warning:  #223-D: function "Reader_InitPara" declared implicitly
+USER_CODE\main.c:       Reader_InitPara();
+USER_CODE\main.c:       ^
+USER_CODE\main.c(1826): warning:  #223-D: function "Reader_MainProc" declared implicitly
+USER_CODE\main.c:                       Reader_MainProc(cMsg);    
+USER_CODE\main.c:                       ^
+USER_CODE\main.c(1828): warning:  #223-D: function "Reader_IsComErr" declared implicitly
+USER_CODE\main.c:                       if(Reader_IsComErr())
+USER_CODE\main.c:                          ^
+USER_CODE\main.c(1839): warning:  #223-D: function "GetSelectKey" declared implicitly
+USER_CODE\main.c:                         key = GetSelectKey(sysVPMission.selectMode);//选货按键交易时使用跑马灯;by gzz 20121121
+USER_CODE\main.c:                               ^
+USER_CODE\main.c(2083): warning:  #177-D: variable "KeyInput" was declared but never referenced
+USER_CODE\main.c:       uint32_t        KeyInput;
+USER_CODE\main.c:                       ^
+USER_CODE\main.c(2122): warning:  #550-D: variable "sizeTx" was set but never used
+USER_CODE\main.c:       int sizeRx, sizeTx;
+USER_CODE\main.c:                   ^
+USER_CODE\main.c: USER_CODE\main.c: 31 warnings, 0 errors
+linking...
+Program Size: Code=162710 RO-data=127650 RW-data=9972 ZI-data=22652  
+FromELF: creating hex file...
+".\out\Cortex-M3-vx.xx.axf" - 0 Error(s), 31 Warning(s).

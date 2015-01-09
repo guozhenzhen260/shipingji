@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\NXP\LPC17xx" -DDEBUG -o ".\out\rt_sys_c.o" --omf_browse ".\out\rt_sys_c.crf" --depend ".\out\rt_sys_c.d" "cfg_file\Startup\rt_sys_c.c"

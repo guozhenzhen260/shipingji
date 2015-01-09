@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\NXP\LPC17xx" -DDEBUG -o ".\out\lpc17xx_nvic.o" --omf_browse ".\out\lpc17xx_nvic.crf" --depend ".\out\lpc17xx_nvic.d" "driver\lpc17xx_nvic.c"

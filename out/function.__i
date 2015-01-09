@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\NXP\LPC17xx" -DDEBUG -o ".\out\function.o" --omf_browse ".\out\function.crf" --depend ".\out\function.d" "USER_CODE\function.c"

@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\NXP\LPC17xx" -DDEBUG -o ".\out\pcf8563t.o" --omf_browse ".\out\pcf8563t.crf" --depend ".\out\pcf8563t.d" "USER_CODE\pcf8563t.c"

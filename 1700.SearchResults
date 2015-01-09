@@ -1,0 +1,64 @@
+---- Cashless Matches (63 in 12 files) ----
+Context.h (user_code)://120914 by cq Cashless
+Context.h (user_code):      "   Cashless trade",
+DevTaskFun.c (user_code):	//121113 by cq Cashless
+Global.h (user_code)://120914 by cq Cashless
+Global.h (user_code):#define DEV_ERR_READER         0xC4       //120914 by cq Cashless
+Global.h (user_code):#define DEV_ERR_BIT_READER	   (1 << 14)	//120914 by cq Cashless
+Global.h (user_code):uint8_t     ReaderEnable;				//120914 by cq Cashless
+Global.h (user_code):uint8_t     ReaderCost;					//120926 by cq Cashless
+Global.h (user_code):	//120914 by cq Cashless
+Global.h (user_code)://120914 by cq Cashless
+Global.h (user_code):MAIN_EXTERN		OS_EVENT	*mbVmcToCashless;
+Global.h (user_code):MAIN_EXTERN		OS_EVENT	*mbCashlessToVmc;
+Main.c (user_code):	//120914 by cq Cashless
+Main.c (user_code):	mbVmcToCashless = OSMboxCreate(NULL);
+Main.c (user_code):	mbCashlessToVmc = OSMboxCreate(NULL);
+Main.c (user_code):	uint8_t     state,cMsg,cCashlessKeyInputFlag = 0;
+Main.c (user_code):						PKeyInput = OSMboxPend(mbCashlessToVmc,1,&err);
+Main.c (user_code):							cCashlessKeyInputFlag = 1;							
+Main.c (user_code):					//PKeyInput = Vmc_PendFromReader(&SaleStat,SaleStat,1);//120914 by cq Cashless
+Main.c (user_code):		//120914 by cq Cashless
+Main.c (user_code):		if(cCashlessKeyInputFlag == 1)
+Main.c (user_code):			cCashlessKeyInputFlag = 0;
+Main.c (user_code):							//120914 by cq Cashless
+Main.c (user_code):								//120926 by cq Cashless
+Main.c (user_code):								Vmc_PendFromReader(&SaleStat,MVC_SALE,OS_TICKS_PER_SEC * 10);//120914 by cq Cashless
+Main.c (user_code):	//121113 by cq Cashless
+Main.c (user_code):	//120914 by cq Cashless
+Main.c (user_code):		//120914 by cq Cashless
+Main.c (user_code):			PCmdMsg = OSMboxPend(mbVmcToCashless,OS_TICKS_PER_SEC / 10,&err);
+Mdb.c (user_code):	Trace_R(" %02x",dat);//120914 by cq Cashless
+Mdb.c (user_code):	  //120914 by cq Cashless
+Mdb.c (user_code):	  Trace_R(" 	err = %02x",err);//120914 by cq Cashless
+Menu.c (user_code)://121113 by cq Cashless
+Menu.c (user_code):	//120926 by cq Cashless
+Menu.c (user_code)://121113 by cq Cashless
+Menu.c (user_code):	//120921 by cq Cashless
+Menu.h (user_code)://121113 by cq Cashless
+Menu.h (user_code)://121113 by cq Cashless
+Menuinit.c (user_code):	//120926 by cq Cashless
+Menuinit.c (user_code):	//120921 by cq Cashless
+Reader.c (user_code):	OSMboxPost(mbVmcToCashless,&MsgBack.msgVTR);																								
+Reader.c (user_code):	OSMboxPost(mbCashlessToVmc,&MsgBack.msgRTV);																								
+Reader.c (user_code):			//121024 by cq Cashless
+Reader.c (user_code):			//121024 by cq Cashless
+SaleTaskFun.c (user_code):	//120914 by cq Cashless
+SaleTaskFun.c (user_code):	//121019 by cq Cashless
+SaleTaskFun.c (user_code):			   //120914 by cq Cashless
+SaleTaskFun.c (user_code):					cVendSuccessFlag = 1;//121019 by cq Cashless
+SaleTaskFun.c (user_code):				   //121013 by cq Cashless
+SaleTaskFun.c (user_code):				   state = MVC_RETRANS;//121019 by cq Cashless
+SaleTaskFun.c (user_code):		  //120914 by cq Cashless
+SaleTaskFun.c (user_code):			   cVendSuccessFlag = 1;//121019 by cq Cashless
+SaleTaskFun.c (user_code):			  //121013 by cq Cashless
+SaleTaskFun.c (user_code):			  state = MVC_RETRANS;//121019 by cq Cashless
+SaleTaskFun.c (user_code):	//120914 by cq Cashless
+SaleTaskFun.c (user_code):		//121019 by cq Cashless
+SaleTaskFun.c (user_code):			//121019 by cq Cashless
+Task.c (user_code)://OS_EVENT	*mbVmcToCashless;
+Task.c (user_code)://OS_EVENT	*mbCashlessToVmc;
+Task.c (user_code):		PKeyInput = OSMboxPend(mbCashlessToVmc,iTime,&err);
+Task.c (user_code):		lpMsg = OSMboxPend(mbCashlessToVmc,OS_TICKS_PER_SEC / 10,&err);
+Task.c (user_code):		lpMsg = OSMboxPend(mbVmcToCashless,OS_TICKS_PER_SEC / 10,&err);
+Timer.c (user_code):	//120914 by cq Cashless

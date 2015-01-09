@@ -1,0 +1,10 @@
+.\out\uartdev_lpc17xx_polling.o: driver\UartDev_LPC17xx_polling.c
+.\out\uartdev_lpc17xx_polling.o: driver\LPC17xx.h
+.\out\uartdev_lpc17xx_polling.o: driver\core_cm3.h
+.\out\uartdev_lpc17xx_polling.o: C:\Keil\ARM\RV31\INC\stdint.h
+.\out\uartdev_lpc17xx_polling.o: driver\system_LPC17xx.h
+.\out\uartdev_lpc17xx_polling.o: driver\UartDev.h
+.\out\uartdev_lpc17xx_polling.o: driver\UartDev_LPC17xx.h
+.\out\uartdev_lpc17xx_polling.o: driver\lpc17xx_uart.h
+.\out\uartdev_lpc17xx_polling.o: driver\lpc_types.h
+.\out\uartdev_lpc17xx_polling.o: driver\lpc17xx_pinsel.h

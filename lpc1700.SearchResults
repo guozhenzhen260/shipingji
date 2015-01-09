@@ -1,0 +1,17 @@
+---- SYSPara.KeySel 匹配 (16 在 5 文件 ) ----
+Function.c (user_code):396:	SYSPara.KeySel = tempSysPara.KeySel;//选货按键;by gzz 20121025
+Function.c (user_code):602:	SYSPara.KeySel = 0;//选货按键;by gzz 20121025
+Main.c (user_code):605:	if(SYSPara.KeySel == 1 )
+Main.c (user_code):913:					if(SYSPara.KeySel == 1 )
+Main.c (user_code):1192:					if(SYSPara.KeySel == 0 )
+Main.c (user_code):1277:					if(SYSPara.KeySel == 1 )
+Main.c (user_code):1322:					if(SYSPara.KeySel == 0 )
+Main.c (user_code):1454:					if(SYSPara.KeySel == 1 )
+Main.c (user_code):1801:	if(SYSPara.KeySel == 1 )
+Main.c (user_code):1837:		  if(SYSPara.KeySel == 1 )
+Menu.c (user_code):1801:			if(SYSPara.KeySel == 1 )
+Menu.c (user_code):1996:		if(SYSPara.KeySel == 1 )
+Menu.c (user_code):3341:			SYSPara.KeySel	= InputNum;
+Menuinit.c (user_code):447:	sprintf( StrInit,"%d", SYSPara.KeySel  );
+SaleTaskFun.c (user_code):54:	if(SYSPara.KeySel == 1 )
+SaleTaskFun.c (user_code):952:	 if(SYSPara.KeySel == 1 )
